@@ -1,0 +1,216 @@
+.montserrat {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Montserrat';
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.burger{
+    width: 70px;
+    align-self: flex-end;
+    position: absolute;
+    top: 60px;
+    right: 60px;
+}
+.burger:hover{
+    transform: scale(1.1);
+    transition: ease-in-out 150ms;
+    cursor: pointer;
+}
+.main__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 436px;
+}
+
+.main__container h1{
+ font-size: 36px;
+ color: #1b2563c4;
+}
+
+
+.main__container strong{
+   background: linear-gradient(90deg, rgb(55, 49, 250) 0%, rgba(39,65,148,1) 53%, rgba(0,217,255,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn{
+    background-color: white;
+    border: 1px solid transparent;
+    border-image: linear-gradient(90deg, rgba(9,0,255,1) 0%, rgba(0,157,255,1) 100%);
+    width: 182px;
+    height: 46px;
+    border-image-slice: 1;
+    background: white;
+    font-size: 20px;
+    background: linear-gradient(90deg, rgba(9,0,255,1) 0%, rgba(0,157,255,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #0B2349;
+    cursor: pointer;
+    transition: ease-in-out 150ms;
+    font-weight: 600;
+}
+
+.main__container-button{
+    margin-right: 690px;
+    margin-top: 20px;
+}
+
+.btn:hover{
+    background: linear-gradient(90deg, rgba(9,0,255,1) 0%, rgba(0,157,255,1) 100%);
+    color: white;
+    -webkit-text-fill-color: white;
+    transform: scale(1.1);
+}
+
+.about{
+    margin-top: 200px;
+    display: flex;
+    
+}
+.background{
+    position: absolute;
+    width: 100%;
+    z-index: 0;
+
+}
+
+.about h2{
+    color: white;
+    z-index: 1;
+    position: absolute;
+    left: 850px;
+    font-size: 36px;
+    margin-top: 80px;
+}
+
+.description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 350px;
+    z-index: 1;
+    color: white;
+    font-size: 32px;
+    font-weight: 900;
+    font-style: italic;
+    margin-left: 340px;
+}
+
+.description p{
+    width: 706px;
+    margin-left: 60px;
+}
+
+.projects {
+    margin-top: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.items{
+    height: 300px;
+}
+.items img{
+    margin-left: 550px;
+    position: relative;
+    top: -150px;
+}
+.items p{
+    font-size: 40px;
+    font-weight: 500;
+    width: 500px;
+    
+}
+
+.items a{
+    background-color: white;
+    border: 1px solid transparent;
+    border-image: linear-gradient(90deg, rgba(9,0,255,1) 0%, rgba(0,157,255,1) 100%);
+    width: 182px;
+    height: 46px;
+    border-image-slice: 1;
+    background: white;
+    font-size: 20px;
+    background: linear-gradient(90deg, rgba(9,0,255,1) 0%, rgba(0,157,255,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #0B2349;
+    cursor: pointer;
+    transition: ease-in-out 150ms;
+    font-weight: 600;
+    padding: 12px;
+
+}
+
+.items .view:hover{
+    background: linear-gradient(90deg, rgba(9,0,255,1) 0%, rgba(0,157,255,1) 100%);
+    color: white;
+    -webkit-text-fill-color: white;
+    transform: scale(1.1);
+    text-decoration: none;
+}
+.items div {
+    width: 500px;
+
+}
+
+.items div p{
+    padding-bottom: 60px;
+}
+.items .source{
+    border: none;
+    
+}
+.items .view{
+    margin-top: 300px;
+}
+
+.projects h2{
+    font-size: 40px;
+    font-weight: 800;
+    color: #1B2563;
+    position: absolute;
+    left: 800px;
+    margin-top: -1100px;
+}
+
+footer{
+    margin-top: 100px;
+}
+footer img{
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    
+}
+footer p{
+    position: relative;
+    font-size: 36px;
+    font-weight: 800;
+    z-index: 333;
+    color: white;
+    margin-left: 760px;
+    margin-top: 100px;
+}
+
+.email{
+    font-style: italic;
+    margin-left: 720px;
+    margin-top: 50px;
+}
